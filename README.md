@@ -14,3 +14,4 @@ brew install <formula>
 | Formula | Description |
 |---------|-------------|
 | fmcal | CLI for Fastmail calendars via CalDAV |
+| paperless-cli | CLI for Paperless-ngx document management |
