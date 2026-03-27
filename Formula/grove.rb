@@ -1,20 +1,20 @@
 class Grove < Formula
   desc "Minimal workspace manager for AI coding agents"
   homepage "https://github.com/MichaelVessia/grove"
-  version "master"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/MichaelVessia/grove/releases/download/vmaster/grove-macos-arm64.tar.gz"
-      sha256 "0f2c10406b1d7d477a16bb0ac3135c19bbd92ce28e436ba109e6d96da115ddd7"
+      url "https://github.com/MichaelVessia/grove/releases/download/grove-v0.1.2/grove-macos-arm64.tar.gz"
+      sha256 "4f9c82ac55155bdb9c69229cf3db60d0726e25b9adc1f207748048dc3f2ede7b"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/MichaelVessia/grove/releases/download/vmaster/grove-linux-x86_64.tar.gz"
-      sha256 "44aca1a687d84b8a04e76b85355e039f7fd6efbaf64eb3ee9963d11e31e5bf0d"
+      url "https://github.com/MichaelVessia/grove/releases/download/grove-v0.1.2/grove-linux-x86_64.tar.gz"
+      sha256 "bd859c89c78c33cf672789f1dd2b0b46d8a2ed2795f53721c4d39b176d23985f"
     end
   end
 
